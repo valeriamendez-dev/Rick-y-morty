@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #202329;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+  max-width: 100%;
+ 
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+  padding: 40px;
+}
